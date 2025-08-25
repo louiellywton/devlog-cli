@@ -1,0 +1,21 @@
+{
+  "categories": [
+    "coding",
+    "debugging", 
+    "planning",
+    "research",
+    "meeting",
+    "documentation",
+    "testing",
+    "deployment",
+    "other"
+  ],
+  "default_category": "coding",
+  "tags_enabled": true,
+  "max_tags": 5,
+  "export_formats": ["json", "csv", "markdown"],
+  "date_format": "%Y-%m-%d",
+  "time_format": "%H:%M",
+  "auto_backup": true,
+  "backup_interval_days": 7
+}

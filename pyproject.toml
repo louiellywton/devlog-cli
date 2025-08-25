@@ -4,15 +4,20 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "devlog-cli"
-version = "0.1.0"
-description = "A simple command-line tool for developers to log their daily activities."
+version = "0.2.0"
+description = "An advanced command-line tool for developers to log their daily activities with categories, tags, search, and export capabilities."
 readme = "README.md"
 requires-python = ">=3.7"
 authors = [
-  { name = "Your Name", email = "your.email@example.com" },
+  { name = "Louie Llywton", email = "louie@example.com" },
 ]
-keywords = ["productivity", "logging", "cli", "development"]
+keywords = ["productivity", "logging", "cli", "development", "categories", "tags", "search", "export"]
 dependencies = []  # We have none! It's a strength.
 
 [project.scripts]
 devlog = "devlog.cli:main"  # This creates the 'devlog' terminal command
+
+[project.urls]
+Homepage = "https://github.com/louiellywton/devlog-cli"
+Repository = "https://github.com/louiellywton/devlog-cli"
+Issues = "https://github.com/louiellywton/devlog-cli/issues"
