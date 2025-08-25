@@ -12,6 +12,8 @@ A simple, lightweight command-line tool for developers to log their daily activi
 *   **Automatic Timestamps:** Every entry is tagged with the date and time.
 *   **Persistent Markdown Log:** Your log is saved to a clean Markdown file in your home directory (`~/.devlog/devlog.md`).
 *   **Zero Dependencies:** Built with the Python standard library for maximum compatibility.
+*   **Statistics:** View insights about your logging habits with `devlog stats`.
+*   **Easy Editing:** Open your log file directly in your default editor with `devlog open`.
 
 ## Installation
 
@@ -34,3 +36,6 @@ It's simple. Just use the `devlog` command.
 ```bash
 devlog "Finally fixed that pesky bug in the authentication middleware"
 # Output: ✓ Logged: Finally fixed that pesky bug...
+**View your statistics:**
+```bash
+devlog stats
