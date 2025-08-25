@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "devlog-cli"
+version = "0.1.0"
+description = "A simple command-line tool for developers to log their daily activities."
+readme = "README.md"
+requires-python = ">=3.7"
+authors = [
+  { name = "Your Name", email = "your.email@example.com" },
+]
+keywords = ["productivity", "logging", "cli", "development"]
+dependencies = []  # We have none! It's a strength.
+
+[project.scripts]
+devlog = "devlog.cli:main"  # This creates the 'devlog' terminal command
